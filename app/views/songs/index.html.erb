@@ -1,0 +1,6 @@
+<h3> Your <%= @songs.count %> game listings: </h3>
+<ul>
+    <% @songs.each do |song| %>
+    <li><%= song %></li><br>
+</ul>
+<% end %>
